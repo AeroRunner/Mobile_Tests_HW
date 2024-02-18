@@ -21,6 +21,7 @@ public class BaseTest {
         open();
 
     }
+
     @AfterEach
     void addAttachments() {
         String sessionId = sessionId().toString();
